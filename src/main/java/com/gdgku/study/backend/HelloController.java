@@ -16,7 +16,6 @@ public class HelloController {
 
 	private final TaskRepository repository;
 
-	// Spring passes the repository in here at startup.
 	public HelloController(TaskRepository repository) {
 		this.repository = repository;
 	}

@@ -14,7 +14,6 @@ public class Task {
 
 	private String content;
 
-	// JPA requires a no-arg constructor. You never call this yourself.
 	protected Task() {
 	}
 
